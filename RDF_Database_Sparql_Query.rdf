@@ -110,7 +110,7 @@
 # We select for beers that have either an alcohol percentage over 7% or a size larger or equal to 500ml #
 # ----------> Profit! #
  
-PREFIX : <http://biobeat.org/rdf/ns#chr>
+PREFIX : <beer-database-wooop#>
 SELECT ?BeerName ?Perc ?Country ?Continent ?Size
 WHERE
 {
